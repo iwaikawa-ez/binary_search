@@ -3,7 +3,6 @@ function binary_search($data, $f){
   do {
     $cnt = count($data);
     $i = floor($cnt / 2);
-
     switch(TRUE) {
       case ($f == $data[$i]) :
         return $i;
